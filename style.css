@@ -1,0 +1,213 @@
+
+#welcome {
+  text-align: center;
+  background-image: url("images/mapa.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:200px;
+  padding:80px 0;
+}
+#welcome button {
+  margin-top: 15px;
+  background-color: #00D024;
+  color:#FFFFFF;
+  border-radius: 6px;
+  font-size: 10px;
+  text-align: center;
+  padding-top: 4px;
+}
+#welcome input[type="text"] {
+  background-color:#019BB1;
+  color:#FFFFFF;
+  border-radius: 6px;
+  text-align: center;
+}
+#welcome input[type="text"]::placeholder{
+   color:#FFFFFF;
+}
+#welcome h1{
+  font-size: 30px;
+}
+
+h1, h2{
+ color:000000; 
+ font-family: roboto;
+font-size: 12px;
+}
+ #header{
+background-color: #0735BE;
+color: #FFFFFF;
+position:relative;
+margin-bottom: 30px;
+
+}
+ #header img{
+  position:absolute;
+  top:5px;
+  left: 15px;
+  width: 40px;
+  border-radius: 50%;
+}
+ #header h1{
+  margin-left: 65px;
+  font-size: 18px;
+  padding: 5px 0px;
+}
+#avatar #firstHeader{
+  background-color: #0735BE;
+  color: #FFFFFF;
+  padding-left: 15px;
+}
+#avatar #firstHeader h1{
+  padding: 5px 0px;
+  font-size: 18px;
+}
+
+#avatar h2{
+  font-size: 12px;
+}
+#avatar img{
+  width: 120px;
+  float: inherit;
+  border-radius: 50%;
+  filter: grayscale(100%);
+}
+#avatar img:hover{
+border:3px solid #FFAE00;
+filter: grayscale(0);
+}
+#avatar img.selected{
+border:3px solid #FFAE00;
+filter: grayscale(0);
+}
+#avatar .avatares{
+width: 32%;
+display: inline-block;
+text-align: center;
+}
+#avatar button {
+  margin-top: 15px;
+  background-color: #00D024;
+  color:#FFFFFF;
+  border-radius: 6px;
+  font-size: 10px;
+  text-align: center;
+  padding-top: 4px;
+}
+#avatar #secondButton{
+  text-align: center;
+}
+#avatar #header{
+  background-color: #0735BE;
+  color: #FFFFFF;
+  padding-left: 25px;
+}
+#start button {
+  background-color: #FFAE00;
+  color: #211E1E;
+  border-radius: 6px;
+}
+
+#places1 img{
+  width: 300px;
+  display:block;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+#places1 button{
+ background-color: #FFAE00;
+ color: #211E1E;
+ border-radius: 6px;
+ display:block;
+ margin: auto;
+ font-size:25px;
+}
+
+#places2 img{
+  width: 300px;
+  display:block;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+#places2 button{
+ background-color: #FFAE00;
+ color: #211E1E;
+ border-radius: 6px;
+ display:block;
+ margin: auto;
+ font-size:25px; 
+}
+
+#places3 img{
+  width: 400px;
+  display:block;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+#places3 button{
+ background-color: #FFAE00;
+ color: #211E1E;
+ border-radius: 6px;
+ display:block;
+ margin: auto;
+ font-size:25px; 
+}
+
+#dances1 img{
+  width: 390px;
+  display:block;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+#dances1 button{
+ background-color: #FFAE00;
+ color: #211E1E;
+ border-radius: 6px;
+ display:block;
+ margin: auto;
+ font-size:25px;
+}
+#dances2 img{
+  width: 390px;
+  display:block;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+#dances2 button{
+ background-color: #FFAE00;
+ color: #211E1E;
+ border-radius: 6px;
+ display:block;
+ margin: auto;
+ font-size:25px;
+}
+
+#dances3 img{
+  width: 390px;
+  display:block;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+#dances3 button{
+ background-color: #FFAE00;
+ color: #211E1E;
+ border-radius: 6px;
+ display:block;
+ margin: auto;
+ font-size:25px;
+}
+
+#answers button{
+ background-color: #FFAE00;
+ color: #211E1E;
+ border-radius: 6px;
+ }
+ 
+#avatar button.selected{
+border:3px solid #FFAE00;
+
+}

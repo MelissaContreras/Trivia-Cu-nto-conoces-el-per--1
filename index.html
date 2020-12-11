@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Trivia</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="welcome"> 
+      <h2> <b> Bienvenidos a </b> </h2>
+      <h1><span> Conociendo el Perú </span> </h1>
+      <input type="text" placeholder="Ingresa tu nombre" id="name"> 
+      <br>
+      <button onclick="saveName()"> <b>SIGUIENTE</b> </button>
+    </div>
+    <div id="avatar" style="display:none">
+      <div id="firstHeader">
+       <h1>Hola <span id="playerName"></span></h1>
+      </div>
+      <h2>Escoge un avatar para representarte</h2> 
+      <div class="avatares">
+       <img id="gato" class="avatar" src="images/gato.png" onclick="chooseAvatar('gato')">
+      </div>
+      <div class="avatares">
+       <img id="papagayo" class="avatar" src="images/papagayo.png" onclick="chooseAvatar('papagayo')">
+      </div>
+       <div class="avatares">
+       <img id="llama" class="avatar" src="images/llama.png" onclick="chooseAvatar('llama')">
+      </div>
+      <div id="secondButton">
+      <button onclick="goToStart()"> <b>SIGUIENTE</b> </button>
+      </div>
+    </div>
+
+    <div id="header" style="display:none">
+      <h1 id="nameHeader"></h1>
+      <img id="avatarHeader" src="images/papagayo.png">
+    </div>
+
+    <div id="start" style="display:none">
+      
+      <h2>Ahora escoge un tema</h2>
+       <button onclick="goToPlaces1()">LUGARES</button>
+       <button onclick="goToDances1()">BAILES </button>
+    </div>
+     <div id="places1" style="display:none">
+      <h1>Escogiste LUGARES. Bien: ¡Empecemos!</h1>
+      <h2>¿Dónde queda?</h2>
+      <img src="images/machupicchu.jpg">
+      <button onclick="goToPlaces2(1)">  CUZCO </button><br><br>
+      <button onclick="goToPlaces2(0)"> AREQUIPA </button><br><br>
+      <button onclick="goToPlaces2(0)"> IQUITOS </button><br><br>
+     </div>
+
+     <div id="places2" style="display:none">
+      <h2>Sigamos. ¿Donde queda?</h2>
+      <img src="images/kuelap.jpg">
+      <button onclick="goToPlaces3(1)"> AMAZONAS </button><br><br>
+      <button  onclick="goToPlaces3(0)"> ICA </button><br><br>
+      <button onclick="goToPlaces3(0)"> TUMBES </button><br><br>
+     </div>
+
+     <div id="places3" style="display:none">
+      <h2>Terminemos. ¿Donde queda?</h2>
+      <img src="images/ballestas.jpg">
+      <button onclick="goToPlacesAnswers(o)"> PIURA </button><br><br>
+      <button onclick="goToPlacesAnswers(1)"> ICA </button><br><br>
+      <button onclick="goToPlacesAnswers(0)"> PUNO </button><br><br>
+     </div>
+     
+     <div id="dances1"style="display:none">
+      <h1>Escogiste BAILES. Bien: ¡Empecemos!</h1>
+      <h2>Esta vestimenta es de:</h2>
+      <img src="images/wititi.JPG">
+      <button onclick="goToDances2(0)"> MARINERA </button><br><br>
+      <button onclick="goToDances2(1)"> WITITI </button><br><br>
+      <button onclick="goToDances2(0)"> TONDERO </button><br><br>
+       </div>
+
+     <div id="dances2"style="display:none">
+      <h2>Sigamos. Esta vestimenta es de:</h2>
+      <img src="images/tijeras.jpg">
+      <button onclick="goToDances3(0)"> DIABLADA </button><br><br>
+      <button onclick="goToDances3(0)"> CHONGUINADA </button><br><br>
+      <button onclick="goToDances3(1)"> DANZA DE TIJERAS </button><br><br>
+     </div>
+
+      <div id="dances3"style="display:none">
+      <h2>Terminemos. Esta vestimenta es de:</h2>
+      <img src="images/buriburiti.jpg">
+      <button onclick="goToDancesAnswers(0)"> DANZA AMAZONAS </button><br><br>
+      <button onclick="goToDancesAnswers(0)"> DANZA DE AYAHUASCA </button><br><br>
+      <button onclick="goToDancesAnswers(1)"> BURI BURITI </button><br><br>
+     </div>
+     
+     <div id="answers" style="display:none">
+      <h1>Resultados</h1>
+      <h2>Has acertado <span id="corrects"></span> de 3 respuestas</h2>
+       <div>
+         <h2>¡Intentalo de nuevo!<br>
+Escoge un tema </h2>
+        <button onclick="resetPlaces()"> LUGARES </button>
+        <button onclick="resetDances()"> BAILES </button>
+       </div>
+      </div>
+    <script src="app.js"></script>
+  </body>
+</html>
