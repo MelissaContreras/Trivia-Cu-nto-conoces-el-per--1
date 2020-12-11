@@ -10,7 +10,7 @@
   width: 200px;
 }
 button{
-  width: 140px;
+  width: 150px;
   border-color: #FFAE00;
   
 }
@@ -24,7 +24,7 @@ button{
   padding: 8px 20px;
 }
 button:hover{
-  width: 150px;
+  width: 160px;
   background-color:#F48809 !important;
 }
 #welcome input[type="text"] {
