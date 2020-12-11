@@ -1,4 +1,4 @@
-# Paso a Paso de la Trivia ¿Cúanto conoces el Perú?
+# Paso a Paso de la Trivia ¿Cuánto conoces el Perú?
 
 ## Paso 1:
 Damos la bienvenida al usuario. Le invitamos a poner su nombre antes de seguir
