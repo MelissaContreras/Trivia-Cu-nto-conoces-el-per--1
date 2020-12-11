@@ -1,29 +1,41 @@
-
 #welcome {
   text-align: center;
-  background-image: url("images/mapa.jpg");
+  /*background-image: url("images/mapa.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size:200px;
+  background-size:200px;*/
   padding:80px 0;
+}
+#welcome img {
+  width: 200px;
+}
+button{
+  width: 140px;
+  border-color: #FFAE00;
+  
 }
 #welcome button {
   margin-top: 15px;
-  background-color: #00D024;
+  background-color: #FFAE00;
   color:#FFFFFF;
   border-radius: 6px;
-  font-size: 10px;
+  font-size: 14px;
   text-align: center;
-  padding-top: 4px;
+  padding: 8px 20px;
+}
+button:hover{
+  width: 150px;
+  background-color:#F48809;
 }
 #welcome input[type="text"] {
-  background-color:#019BB1;
-  color:#FFFFFF;
+  background-color:#C4C4C4;
+  color:#211E1E;
   border-radius: 6px;
   text-align: center;
+  border: 3px solid #019BB1;
 }
 #welcome input[type="text"]::placeholder{
-   color:#FFFFFF;
+   color:#211E1E;
 }
 #welcome h1{
   font-size: 30px;
@@ -65,7 +77,7 @@ margin-bottom: 30px;
 }
 
 #avatar h2{
-  font-size: 12px;
+  font-size: 16px;
 }
 #avatar img{
   width: 120px;
@@ -88,12 +100,12 @@ text-align: center;
 }
 #avatar button {
   margin-top: 15px;
-  background-color: #00D024;
+  background-color: #FFAE00;
   color:#FFFFFF;
   border-radius: 6px;
-  font-size: 10px;
+  font-size: 14px;
   text-align: center;
-  padding-top: 4px;
+  padding: 8px 20px;
 }
 #avatar #secondButton{
   text-align: center;
@@ -103,20 +115,36 @@ text-align: center;
   color: #FFFFFF;
   padding-left: 25px;
 }
+#start {
+  text-align: center;
+}
+#start h2{
+  font-size: 16px;
+}
 #start button {
   background-color: #FFAE00;
   color: #211E1E;
   border-radius: 6px;
+  font-size: 14px;
+  text-align: center;
+  padding: 8px 20px;
 }
 
-#places1 img{
+#places1, #places2, #places3, #dances1, #dances2, #dances3 {
+  text-align: center;
+}
+
+#places1 img, #places2 img, #places3 img, #dances1 img, #dances2 img, #dances3 img{
   width: 300px;
-  display:block;
   margin-top: 15px;
   margin-bottom: 30px;
 }
 
-#places1 button{
+#places1 h2, #places2 h2, #places3 h2, #dances1 h2, #dances2 h2, #dances3 h2{
+  font-size: 16px;
+}
+
+#places1 button, #places2 button, #places3 button, #dances1 button, #dances2 button, #dances3 button{
  background-color: #FFAE00;
  color: #211E1E;
  border-radius: 6px;
@@ -125,87 +153,17 @@ text-align: center;
  font-size:25px;
 }
 
-#places2 img{
-  width: 300px;
-  display:block;
-  margin-top: 15px;
-  margin-bottom: 30px;
-}
-#places2 button{
- background-color: #FFAE00;
- color: #211E1E;
- border-radius: 6px;
- display:block;
- margin: auto;
- font-size:25px; 
-}
-
-#places3 img{
-  width: 400px;
-  display:block;
-  margin-top: 15px;
-  margin-bottom: 30px;
-}
-#places3 button{
- background-color: #FFAE00;
- color: #211E1E;
- border-radius: 6px;
- display:block;
- margin: auto;
- font-size:25px; 
-}
-
-#dances1 img{
-  width: 390px;
-  display:block;
-  margin-top: 15px;
-  margin-bottom: 30px;
-}
-
-#dances1 button{
- background-color: #FFAE00;
- color: #211E1E;
- border-radius: 6px;
- display:block;
- margin: auto;
- font-size:25px;
-}
-#dances2 img{
-  width: 390px;
-  display:block;
-  margin-top: 15px;
-  margin-bottom: 30px;
-}
-
-#dances2 button{
- background-color: #FFAE00;
- color: #211E1E;
- border-radius: 6px;
- display:block;
- margin: auto;
- font-size:25px;
-}
-
-#dances3 img{
-  width: 390px;
-  display:block;
-  margin-top: 15px;
-  margin-bottom: 30px;
-}
-
-#dances3 button{
- background-color: #FFAE00;
- color: #211E1E;
- border-radius: 6px;
- display:block;
- margin: auto;
- font-size:25px;
-}
 
 #answers button{
  background-color: #FFAE00;
  color: #211E1E;
  border-radius: 6px;
+ font-size: 14px;
+  padding: 8px 20px;
+ }
+
+ #answers h1, #answers h2{
+   font-size: 16px;
  }
  
 #avatar button.selected{
