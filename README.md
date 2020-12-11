@@ -1,7 +1,7 @@
 # Paso a Paso de la Trivia ¿Cuánto conoces el Perú?
 
 ## Paso 1:
-Damos la bienvenida al usuario. Le invitamos a poner su nombre antes de seguir
+Damos la bienvenida al usuario. Le invitamos a poner su nombre antes de seguir.
 
 ## Paso 2:
 Saludamos a nuestro usuario por su nombre y le ofrecemos tres avatares con temática de la trivia. Con la finalidad de que nuestro usuario se sienta más integrado con nuestro juego.
