@@ -1,9 +1,5 @@
 #welcome {
-  text-align: center;
-  /*background-image: url("images/mapa.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size:200px;*/
+  text-align: center
   padding:80px 0;
 }
 #welcome img {
