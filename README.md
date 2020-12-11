@@ -7,7 +7,7 @@ Damos la bienvenida al usuario. Le invitamos a poner su nombre antes de seguir
 Saludamos a nuestro usuario por su nombre y le ofrecemos tres avatares con temática de la trivia. Con la finalidad de que nuestro usuario se sienta más integrado con nuestro juego.
 
 ## Paso 3:
-Aquí le damos dos botones que tienen como opción dos diferentes temas para empezar a jugar Y así será sucesivamente en las dos pantallas siguientes. Lo que ocurrirá en paralelo será que el contador que hemos puesto irá tomando los valores de los botones. Todo esto sucederá de elegir cualquiera de los dos temas.
+Aquí le damos dos botones que tienen como opción dos diferentes temas para empezar a jugar. Y así será sucesivamente en las dos pantallas siguientes. Lo que ocurrirá en paralelo será que el contador que hemos puesto irá tomando los valores de los botones. Todo esto sucederá de elegir cualquiera de los dos temas.
 
 ## Paso 4:
 Finalmente nuestro contador mandará las respuestas correctas de nuestro usuario. También lo animaremos a seguir jugando y le ofreceremos dos botones para ello con los temas.
