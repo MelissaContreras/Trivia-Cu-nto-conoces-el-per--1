@@ -14,7 +14,7 @@ Finalmente nuestro contador mandará las respuestas correctas de nuestro usuario
 
 ## Proceso de desarrollo
 
-1. Nuestro proceso fue bastante organico a partir de que nos unimos , ya que recibimos el mini-taller para empezar nuestro prototipo en papel e inmediatamente despúes nos reunimos y decidimos de lo que habíamos llegado a realizar las tres. Por unanimidad escogimos  elogimos el diseño mejor estructurado. Luego por acuerdo comun cambiamos el tema a a turismo en el peru y mediante preguntas que prueban el conocimiento de los usuarios sobre el Perú. Luego empezamos a prototipar en Figma, alli hicimos nuestros wireframes y mockups guiandonos en los colores de Paletton y luego corrigiendolos bajo testeo de algunos usuarios y el consejo de nuestrta couch de UX.
+1. Nuestro proceso fue bastante organico a partir de que nos unimos , ya que recibimos el mini-taller para empezar nuestro prototipo en papel e inmediatamente despúes nos reunimos y decidimos de lo que habíamos llegado a realizar las tres. Por unanimidad escogimos el diseño mejor estructurado. Luego por acuerdo comun cambiamos el tema a a turismo en el peru y mediante preguntas que prueban el conocimiento de los usuarios sobre el Perú. Luego empezamos a prototipar en Figma, alli hicimos nuestros wireframes y mockups guiandonos en los colores de Paletton y luego corrigiendolos bajo testeo de algunos usuarios y el consejo de nuestra couch de UX.
 
 [bocetos](https://www.figma.com/file/3JZC21gUKfxkP3LnTD9M1g/Untitled "bocetos")
 
